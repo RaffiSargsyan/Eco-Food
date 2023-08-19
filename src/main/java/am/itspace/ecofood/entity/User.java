@@ -21,7 +21,7 @@ public class User {
     private String name;
     private String surname;
     private String email;
-    @Enumerated(value=EnumType.STRING)
+    @Enumerated(value = EnumType.STRING)
     private UserRole userRole;
     private String password;
 }
